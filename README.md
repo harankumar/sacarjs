@@ -9,7 +9,7 @@ Sacar ("to take" or "to get" in Spanish) lets you load Javascript resources asyn
  
  Sacar provides only one function, `sacar(url, callback)`. Consider this straightforward example, where we load a popular library off a CDN:
  
- ```
+ ```js
  sacar("https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js", function(){
   console.log(marked("Hello *world*!"))
 })
